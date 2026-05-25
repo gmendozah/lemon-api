@@ -13,7 +13,13 @@ struct DisplayDish: View {
     }
     
     var body: some View {        
-        EmptyView()
+        HStack {
+            Text(dish.name ?? "")
+            Spacer()
+            Text(dish.formatPrice())
+                .font(.callout)
+                .monospaced()
+        }
         .contentShape(Rectangle()) // keep this code
     }
 }
