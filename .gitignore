@@ -1,0 +1,92 @@
+# Xcode
+#
+# Reference: https://github.com/github/gitignore/blob/main/Swift.gitignore
+
+# Build artifacts
+build/
+DerivedData/
+
+# Personal settings / User state
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Xcode State
+*.xcuserstate
+
+# Xcode 10+ / Swift Package Manager (SPM) build folders
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to git. However, you can choose to
+# commit it if you want to ensure all dependencies are locked in place.
+# Reference: https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+Pods/
+/Podfile.lock
+
+# Carthage
+#
+# We recommend against adding Carthage/Build directory to git.
+Carthage/Build/
+
+# Accidental crash logs / diagnostics
+*.crash
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcshareddata/xcschemes/
+# Note: You can remove the line above if you want to share custom Xcode schemes with other devs.
+
+# Swift Package Manager (Cache)
+.swiftpm/xcode/package.resolved
+.swiftpm/xcode/xcuserdata/
+
+# Fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, upload them to App Store Connect / Google Play Console directly.
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Bundle / Ruby dependencies (Fastlane / CocoaPods setup)
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# macOS / Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Core Data / Database local test runs
+# SQLite databases generated during development / testing
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# Log files
+*.log
+
+# Sensitive credentials / configuration files
+*.env
+*.env.local
+*.env.*.local
+*.plist.gpg
+*.secret
