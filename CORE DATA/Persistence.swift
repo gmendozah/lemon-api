@@ -6,7 +6,7 @@ struct PersistenceController {
 
   
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "M4Exercise")
+        container = NSPersistentContainer(name: "LemonBite")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
 //            container.viewContext.automaticallyMergesChangesFromParent = true

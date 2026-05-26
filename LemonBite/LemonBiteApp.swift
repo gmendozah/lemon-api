@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct M4ExerciseApp: App {
+struct LemonBiteApp: App {
     let persistenceController = PersistenceController.shared
     
     var body: some Scene {
