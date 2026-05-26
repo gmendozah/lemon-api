@@ -4,17 +4,15 @@ LemonBite is an iOS portfolio application developed for **Little Lemon**. It sho
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 | Main Menu Screen | Search & Ordering |
 |---|---|
-| ![Main Menu Screen](screenshots/screenshot_main.png) | ![Search & Ordering Screen](screenshots/screenshot_search.png) |
-
-> *Note: Place your actual application screenshots in a `screenshots/` directory at the project root and name them `screenshot_main.png` and `screenshot_search.png` to display them here.*
+| <img width="250" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-25 at 00 02 08" src="https://github.com/user-attachments/assets/70ff8c7c-1341-489f-80c4-32e0321efed4" /> | <img width="250" alt="Simulator Screenshot - iPhone 17 Pro - 2026-05-25 at 00 02 13" src="https://github.com/user-attachments/assets/f66e4054-37a1-406b-a40b-291877399f4c" /> |
 
 ---
 
-## Features
+## 🛠 Features
 
 - **REST API Integration**: Dynamically retrieves the latest food menu from the web server using a REST API endpoint.
 - **Swift JSON Decodable**: Decodes JSON elements sent by the server into a custom, type-safe Swift data structure.
@@ -26,7 +24,7 @@ LemonBite is an iOS portfolio application developed for **Little Lemon**. It sho
 
 ---
 
-## Tech Stack
+## 💻 Tech Stack
 
 - **Platform**: iOS 16.0+
 - **Language**: Swift 5.0+
@@ -37,7 +35,7 @@ LemonBite is an iOS portfolio application developed for **Little Lemon**. It sho
 
 ---
 
-## How to Run the App
+## 🚀 How to Run the App
 
 Follow these steps to build and run the project locally on your machine:
 
